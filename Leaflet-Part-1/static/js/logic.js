@@ -50,7 +50,7 @@ var legend = L.control({ position: "bottomright" });
 legend.onAdd = function (map) {
     var div = L.DomUtil.create("div", "legend");
     var labels = ["-10 to 10 km", "10 to 30 km", "30 to 50 km", "50 to 70 km", "70 to 90 km", "90+ km"];
-    var colors = ["#00FF00", "#ADFF2F", "#FFFF00", "#FFA500", "#FF8C00", "#FF0000"];
+    var colors = ["#00FF00", "#ADFF2F", "#FFFF00", "#FFCB7F", "#FF8C00", "#FF0000"];
 
     div.innerHTML += "<h4>Depth Legend</h4>";
 
@@ -75,7 +75,7 @@ function getColor(depth) {
     } else if (depth >= 30 && depth < 50) {
         return "#FFFF00"; // Yellow
     } else if (depth >= 50 && depth < 70) {
-        return "#FFA500"; // Orange
+        return "#FFCB7F"; // Orange
     } else if (depth >= 70 && depth < 90) {
         return "#FF8C00"; // Dark orange
     } else {
