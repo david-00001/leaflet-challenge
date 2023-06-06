@@ -1,14 +1,15 @@
 # leaflet-challenge
 
 
-JavaScript file to create map is located here:
+## JavaScript file to create map is located here:
 	/Leaflet-Part-1/static/js/logic.js
 
-I also modified the HTML file to include code to style the legend.
+## I also modified the style.css to include code to style the legend:
+	/Leaflet-Part-1/static/css/style.css
 
 
 
-Resources:
+## Resources:
 	Used this to convert time from Unix:
 		https://stackoverflow.com/questions/847185/convert-a-unix-timestamp-to-time-in-javascript
 
